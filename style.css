@@ -1,0 +1,97 @@
+body{
+    background-color: #1d3557;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f1faee;
+    
+}
+
+.header {
+    font-size: 50px;
+}
+
+#result {
+    font-size: 32px;
+}
+
+#selections {
+    display: flex;
+}
+
+.btn {
+    padding: 20px;
+    background-color: #457b9d;
+    border: none;
+    margin: 30px 20px;
+    border-radius: 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.scores {
+    display: flex;
+    gap: 100px;
+    margin: none;
+}
+
+.player {
+    font-size: 32px;
+    
+}
+
+.choice {
+    padding: 20px;
+    background-color: #457b9d;
+    border: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icon {
+    font-size: 100px;
+    color:#f1faee;
+    width: 100px;
+}
+
+.winnerAnnounce {  
+    font-size: 36px;
+    font-weight: bold ;
+    
+}
+.lose {
+    color: #e63946;
+}
+.win {
+    color: #8ac926
+}
+
+
+.retry-button {
+    border: 4px solid #f1faee;
+    background-color: #1d3557;
+    padding: 20px 60px;
+    color: #f1faee;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 0;
+}
+h2 {
+    margin-bottom: 0;
+}
